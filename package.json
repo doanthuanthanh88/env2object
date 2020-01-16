@@ -1,0 +1,30 @@
+{
+  "name": "env-js-loader",
+  "version": "1.0.0",
+  "description": "Load environment variables from Object, files, OS and convert to Object",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "dev": "npm run clean && tsc -w --sourceMap",
+    "build": "npm run clean && tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doanthuanthanh88/env-js-loader.git"
+  },
+  "keywords": [],
+  "author": "doanthuanthanh88@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doanthuanthanh88/env-js-loader/issues"
+  },
+  "homepage": "https://github.com/doanthuanthanh88/env-js-loader#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.7",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}

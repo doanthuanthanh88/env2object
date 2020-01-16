@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+      "pretty": false,
+      "module": "commonjs",
+      "target": "esnext",
+      "declaration": true,
+      "sourceMap": false,
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "newLine": "lf",
+      "noImplicitReturns": true,
+      "outDir": "lib",
+      "rootDir": "src"
+  },
+  "exclude": [
+      "node_modules"
+  ]
+}
